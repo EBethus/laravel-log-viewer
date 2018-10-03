@@ -68,6 +68,16 @@
       white-space: nowrap;
     }
 
+    .level svg {
+      margin-right: 5px;
+    }
+
+    .level-select select {
+      display: inline-block;
+      margin-left: 5px;
+      width: auto;
+    }
+
 
 
     /**
