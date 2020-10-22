@@ -1,5 +1,5 @@
 {
-    "name": "rap2hpoutre/laravel-log-viewer",
+    "name": "ebethus/laravel-logs-viewer",
     "description": "A Laravel log reader",
     "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging", "laravel", "lumen"],
@@ -8,10 +8,14 @@
         {
             "name": "rap2hpoutre",
             "email": "raphaelht@gmail.com"
+        },
+        {
+            "name": "Alberto Berroteran",
+            "email": "alberroteran@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.2.0",
         "illuminate/support": "4.2.*|5.*|^6.0|^7.0|^8.0"
     },
     "require-dev": {
