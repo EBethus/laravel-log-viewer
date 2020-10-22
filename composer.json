@@ -1,5 +1,5 @@
 {
-    "name": "ebethus/laravel-logs-viewer",
+    "name": "ebethus/laravel-vv-logs-viewer",
     "description": "A Laravel log reader",
     "license": "MIT",
     "keywords": ["log", "log-reader", "log-viewer", "logging", "laravel", "lumen"],
