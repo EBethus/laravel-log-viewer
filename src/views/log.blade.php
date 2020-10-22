@@ -386,9 +386,9 @@
 
       $.fn.dataTable.ext.search.push(
         function (settings, data) {
-          var level = $("#level").val();
-
-          return !level || data[0] === level;
+          var level = $("#level").val(),
+              value = data[0] && data[0].replace(/[^\w]/g,'');
+          return !level || (value === level);
         },
       );
     @endif
